@@ -111,6 +111,9 @@
                 this.visible = false;
                 this.index = 0;
                 clearTimeout(this.timer);
+                window.console.log("from src!!!!");
+                window.console.log(this.filteredImages);
+                window.console.log(this.directory);
             },
             has_next() {
                 return (this.index + 1 < this.filteredImages.length);
