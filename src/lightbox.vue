@@ -5,7 +5,7 @@
         <div> hello 12345 </div>
             <div class="lightbox" v-if="visible" @mousedown.stop="hide" @touchdown.stop="hide">
             <div> hello this is a test </div>
-                    <div class="lightbox-close" @mousedown.stop="hide" @touchdown.stop="hide">&times;</div>
+                    <div class="lightbox-close" @mousedown.stop="hide" @touchdown.stop="hide">22 &times 22;</div>
                     <div class="lightbox-arrow lightbox-arrow-left" @mousedown.stop.prevent="prev" @touchdown.stop.prevent="prev">
                         <transition name="lightbox-fade">
                             <div class="lightbox-arrow-left-icon" v-show="has_prev() && controlsVisible">
