@@ -1,6 +1,8 @@
 <template>
     <div>
+    <div> bye 999999 </div>
         <transition name="lightbox-fade">
+        <div> hello 12345 </div>
             <div class="lightbox" v-if="visible" @mousedown.stop="hide" @touchdown.stop="hide">
             <div> hello this is a test </div>
                     <div class="lightbox-close" @mousedown.stop="hide" @touchdown.stop="hide">&times;</div>
