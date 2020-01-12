@@ -86,6 +86,7 @@
             window.addEventListener('mousemove',this.mouseEventListener);
             window.addEventListener('touchmove',this.mouseEventListener);
             window.addEventListener('mouseup',this.mouseEventListener);
+            window.console.log("aaqq");
         },
         destroyed() {
             window.removeEventListener('keydown', this.keyEventListener);
@@ -95,6 +96,7 @@
         },
         methods: {
             show(imageName) {
+            window.console.log("aaqq2222");
                 this.visible = true;
                 this.controlsVisible = true;
                 var that = this;
@@ -131,6 +133,7 @@
                 }
             },
             next() {
+            window.console.log("aaqq444");
                 if (this.has_next()) {
                     this.slideTransitionName = "lightbox-slide-next";
                     this.index += 1;
@@ -138,6 +141,7 @@
                 }
             },
             keyEventListener(e) {
+            window.console.log("aaqq33334444");
                 if (this.visible) {
                     var that = this;
                     this.controlsVisible = true;
