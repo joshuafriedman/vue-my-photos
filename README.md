@@ -4,6 +4,8 @@ No dependencies required!
 Inspired by <a href="https://github.com/DCzajkowski/vue-pure-lightbox">vue-pure-lightbox</a>, however I 
 needed a framework that allowed for a gallery of thumbnails as well as filtering functionality.
 
+This version allows you to zoom in and out. It runs perfectly well when using vue electron as oppose to the previous version which is buggy. -Josh
+
 ## Demo
 <a href="https://codepen.io/am283721/pen/VEwNKR" target="_blank">Live demo available on Codepen</a>
 
